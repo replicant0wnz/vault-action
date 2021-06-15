@@ -40,6 +40,10 @@ async function retrieveToken(method, client) {
             }
             return await getClientToken(client, method, path, { jwt: data, role: role })
         }
+        case 'aws': {
+            const role = core.getInput('role', { required: true })
+            return await getClientToken(client, method, path, { role: role });
+        }
 
         default: {
             if (!method || method === 'token') {
