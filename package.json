@@ -27,10 +27,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/hashicorp/vault-action.git"
+        "url": "git+https://github.com/replicant0wnz/vault-action.git"
     },
     "keywords": [
-        "hashicorp",
+        "replicant0wnz",
         "vault",
         "github",
         "actions",
@@ -40,9 +40,9 @@
     "author": "HashiCorp",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/hashicorp/vault-action/issues"
+        "url": "https://github.com/replicant0wnz/vault-action/issues"
     },
-    "homepage": "https://github.com/hashicorp/vault-action#readme",
+    "homepage": "https://github.com/replicant0wnz/vault-action#readme",
     "dependencies": {
         "got": "^11.5.1",
         "jsonata": "^1.8.2",
